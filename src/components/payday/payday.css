@@ -1,0 +1,86 @@
+.payday {
+  background: linear-gradient(
+    0deg,
+    rgb(224, 195, 64),
+    rgb(223, 194, 62) 3.929%,
+    rgb(225, 196, 65) 7.229%,
+    rgb(227, 199, 67) 10.229%,
+    rgb(228, 197, 66) 13.141%,
+    rgb(230, 199, 68) 16.223%,
+    rgb(231, 200, 69) 19.84%,
+    rgb(229, 198, 67) 24.383%,
+    rgb(230, 201, 69) 30.996%,
+    rgb(227, 199, 67) 37.194%,
+    rgb(233, 202, 72) 43.333%,
+    rgb(237, 206, 73) 50.359%,
+    rgb(240, 212, 76) 56.569%,
+    rgb(244, 216, 79) 62.712%,
+    rgb(246, 218, 82) 67.124%,
+    rgb(247, 219, 83) 73.767%,
+    rgb(249, 221, 85) 79.08%,
+    rgb(249, 223, 86) 85.645%,
+    rgb(250, 225, 87) 93.496%,
+    rgb(249, 223, 86) 100%
+  );
+  margin-bottom: 100px;
+}
+
+.payday__content {
+  display: flex;
+  width: 100%;
+}
+
+.payday-img {
+  width: 50%;
+}
+.payday-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.payday__text {
+  padding: 128px 200px 155px 67px;
+}
+
+.payday-title {
+  color: var(--textColor);
+  font-size: 111.61px;
+  font-weight: 900;
+  line-height: 1.37;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 33px;
+}
+
+.payday-title span {
+  position: relative;
+}
+
+.payday-title::before {
+  content: "";
+  display: inline-block;
+  top: 0;
+  left: 0px;
+  bottom: 150px;
+  right: 75px;
+  position: absolute;
+  background-color: #ffffff;
+  transform: rotate(-2deg);
+}
+
+.payday-desc {
+  width: 670px;
+  color: rgb(35, 19, 0);
+  font-size: 36.04px;
+  font-weight: 500;
+  line-height: 52.32px;
+  margin-bottom: 40px;
+}
+
+.payday-date {
+  font-size: 36.04px;
+  font-weight: 700;
+  line-height: 52.32px;
+  margin-bottom: 10px;
+}
+

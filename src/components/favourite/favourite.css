@@ -1,0 +1,17 @@
+.favourite{
+    padding-top: 120px;
+    margin-bottom: 143px;
+
+}
+
+.favourite__header{
+    margin-bottom: 100px;
+
+}
+
+.favourite-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px   ;
+}

@@ -1,0 +1,38 @@
+.getApp{
+    margin-bottom: 250px;
+}
+
+.getApp__content {
+  display: flex;
+  gap: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.getApp__text {
+  margin-bottom: 50px;
+  width: 500px;
+}
+
+.getApp-title {
+  color: var(--textColor);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.getApp-desc {
+    
+  width: 450px;
+  margin-top: 41px;
+  margin-bottom: 65px;
+  color: var(--grey);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.download-links{
+    display: flex;
+    gap: 20px;
+}
